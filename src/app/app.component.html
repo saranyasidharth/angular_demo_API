@@ -1,0 +1,7 @@
+<button class="btn btn-primary" (click)="loadPosts();">Click me</button>
+<div *ngFor="let post of posts">
+  <h2>{{post.bookId}}</h2>
+  <p>{{post.bookTitle}}</p>
+  <p>{{post.name}}</p>
+
+</div>
